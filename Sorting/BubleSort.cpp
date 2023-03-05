@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void selectionSort(int arr[], int size)
+void bubbleSort(int arr[], int size)
 {
     int counter = 1;
     while (counter < size)
@@ -37,5 +37,5 @@ int main()
         cin >> arr[i];
     }
 
-    selectionSort(arr, size);
+    bubbleSort(arr, size);
 }
